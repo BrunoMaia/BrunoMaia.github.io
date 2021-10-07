@@ -4,19 +4,21 @@
 <head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+<link rel='stylesheet' href='//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css'>
 <style>
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 #000000c2;
   max-width: 80vw;
   margin: auto;
   text-align: center;
-  font-family: arial;
+  font-family: hack;
 }
 
 .foto {
   width: 60vw;
   max-width: 150px;
   border-radius: 50%;
+  margin-top: 1%;
 }
 
 .sub_titulo {
@@ -24,7 +26,7 @@
   padding-left: 1%;
 }
 
-.title {
+.titulo{
   color: grey;
   font-size: 18px;
 }
@@ -34,12 +36,17 @@
   outline: 0;
   display: inline-block;
   padding: 8px;
-  color: white;
-  background-color: #000;
+  color: #000000;
+  background-color: #ffffff;
   text-align: center;
   cursor: pointer;
-  width: 100%;
+  width: 70vw;
+  max-width: 1200px;
   font-size: 18px;
+  min-height: 18px;
+  margin: 1%;
+  border: 1px solid #000000;
+  box-shadow: 5px 6px #b7b7b7;
 }
 
 a {
@@ -62,7 +69,7 @@ button:hover, a:hover {
 <div class="card">
   <img src="/perfil.jpg" alt="Bruno" class="foto">
   <h1>Bruno M. Maia</h1>
-  <p class="title">Tentando aprender algo novo todos os dias</p>
+  <p class="titulo">Tentando aprender algo novo todos os dias</p>
   <div>
     <h3 class="sub_titulo">Educação &#127891;</h3>
     <hr>
@@ -77,16 +84,15 @@ button:hover, a:hover {
   <div>
     <h3 class="sub_titulo">Programação &#128104;&#8205;&#128187;</h3>
     <hr>
-    <p>Redescobri o mundo da programação durante a faculdade, lendo o livro Automate Boring Stuff With Python do Al Sweigart. Me identifiquei com a linguagem python, pois é uma linguagem dinamica, multiplataforma e se encaixa em diversos projetos. Durante o trabalho no Atacadão S.A. conheci melhor o mundo linux e aprendi a linguagem shell script, além de fazer um portal em PHP. Atualmente estou realizando um bootcamp em ciencias de dados, área que cada vez mais me interesso mais!</p>
+    <p>Redescobri o mundo da programação durante a faculdade, lendo o livro <i>Automate Boring Stuff With Python</i> do Al Sweigart. Me identifiquei com a linguagem python, pois é uma linguagem dinamica, multiplataforma e se encaixa em diversos projetos. Durante o trabalho no Atacadão S.A. conheci melhor o mundo linux e aprendi a linguagem shell script, além de fazer um portal em PHP. Atualmente estou realizando um bootcamp em ciencias de dados, área que cada vez mais me interesso mais!</p>
     <p>Meu tempo livre envolve desde leituras e projetos de programação até aprendizados do mercado financeiro. Meu primeiro projeto público foi o <a href="http://brunonott.pythonanywhere.com/finix">NottFinix</a> um webapp de gestão financeira. Cada vez mais pretendo aprender sobre python e outras linguagens, para um dia começar uma carreira como Cientista de dados ou Programador Jr.</p>
   </div>
   
-  <div style="margin: 24px 0;">
+  <div style="margin: 10px 0;">
     <a href="http://lattes.cnpq.br/9750023933018547"><i class="ai ai-lattes"></i></a> 
     <a href="https://www.linkedin.com/in/brunonott/"><i class="fa fa-linkedin"></i></a>  
   </div>
   <p><a href="mailto:brunomaia@alunos.utfpr.edu.br" class="contatar">Contacte-me &#128231;</a></p>
 </div>
-
 </body>
 </html>
